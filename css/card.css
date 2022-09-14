@@ -1,0 +1,76 @@
+/* BODY de la page */
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* CONTENU principale  */
+.card-container{
+    display:flex;
+    /*border-style:solid;*/
+    width:450px;
+    height:450px;
+    border-radius: 20px ;
+}
+
+/* POUR IMG  */
+.card-img{
+    /*border-style:solid;
+    border-color:red;*/
+    width:250px;
+    height:450px;
+    border-radius:20px 0px 0px 20px;
+    flex:1;
+}
+.img-card{
+    width:250px;
+    height:450px;
+    border-radius: 20px 0px 0px 20px;
+    
+    
+}
+
+/*  TEXTE CARD */
+.card-text{
+    background-color:white;
+    width:200px;
+    height:450px;
+    border-radius: 0px 20px 20px 0px; 
+    flex:1;  
+}
+
+.second-title-card,.primary-title-card,.description-card, .price-card,.btn-validate{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+/* PERFUME */
+.second-title-card{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+.price-card{
+    font-weight: bold;
+    color:green;
+    font-size:30px;
+}
+
+.btn-validate{
+    background-color: green;
+    color:white;
+    font-size:15px;
+    padding:10px;
+    border-color:green;
+    width:150px;
+    border-radius: 20px;
+}
+/* FIN de la page  */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+ .attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
